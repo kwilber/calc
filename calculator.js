@@ -69,8 +69,10 @@ function Calculator() {
           if (screen.innerHTML.includes("^")) {
             var x = screen.innerHTML.split("^");
             screen.innerHTML = Math.pow(x[0], x[1]);
+            count = 0;
           } else {
             screen.innerHTML = eval(screen.innerHTML);
+            count = 0;
           }
         };
       }
