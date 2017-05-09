@@ -1,0 +1,89 @@
+html,
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #550000;
+  box-sizing: border-box;
+  font: 14px Arial, sans-serif;
+
+}
+
+
+.number-div .operation {
+  width: 12.5%;
+    border-radius: 50%;
+    padding: 10px 3%;
+    margin: 2px;
+    height: 23px;
+    font-size: 1.4em;
+    
+}
+.main-div {
+  width: 70%;
+  max-width: 300px;
+  margin: 25px auto;
+  background: #666;
+  height: 300px;
+  border: 2px solid #fff;
+  box-shadow: 74px 7px 72px #342828, 1px 18px 41px #342828, -61px 3px 68px #342828, 1px -35px 112px #342828;
+  padding: 15px;
+  border-radius: 14px;
+  position: relative;
+}
+
+.screen-div,
+.number-div {
+  padding: 0;
+  margin: 0;
+}
+
+.screen {
+  list-style: none;
+  height: 45px;
+  width: 100%;
+  margin: 0 1px;
+  text-align: right;
+  background: #008000;
+  overflow: hidden;
+}
+#screen {
+    margin-right: 20px;
+    font-size: 20px;
+}
+.clear {
+  width: 60px;
+  background: #7B8D8E;
+  padding: 10px 17px;
+  border-radius: 3px;
+  left: 215px;
+  top: 18px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.number-div li {
+    list-style: none;
+    float: left;
+    width: 25%;
+    background: #ccc;
+    margin: 2px 2px;
+    height: 30px;
+    padding: 10px 3%;
+    border-radius: 15px;
+    text-align: center;
+    transition: .2s;
+    cursor: pointer;
+    font-size: 1.4em;
+}
+.number-div li:hover {
+  background: #44B3C2;
+  color: white;
+}
+
+
+
+#equals:hover {
+  background: #FE5E6A;
+  color: white;
+}
